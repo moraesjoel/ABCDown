@@ -5,22 +5,16 @@ import {
   Image,
   Text,
   TouchableOpacity,
-  TextInput,
-  Dimensions,
 } from 'react-native';
-//<Text style={styles.texts}> ABCDown</Text>
-const App = ({
-  navigation
-}) => {
+
+const Main = ({ navigation }) => {
   return(
-    
     <View style={styles.container}>
       <Image style={styles.imgLogo} source={require('../assets/logo.png')}/>
-      <TouchableOpacity style={styles.swipe} onPress={() => navigation.navigate('CurrencySelection')}>
+      <TouchableOpacity style={styles.swipe} onPress={() => navigation.navigate('InsertName')}>
         <Text>Toque para iniciar</Text>
         <Image style={styles.imgs} source={require('../assets/icone.png')}/>
       </TouchableOpacity>
-    
     </View>
   );
 };
@@ -53,4 +47,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Main;

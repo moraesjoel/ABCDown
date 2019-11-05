@@ -1,11 +1,12 @@
 import React from 'react';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-import { Main, CurrencySelection, HelloPage, PlayPage } from './screens';
+import { createStackNavigator } from 'react-navigation-stack';
+import {createAppContainer} from 'react-navigation';
+import { Main, InsertName, HelloPage, PlayPage } from './screens';
 
 const AppNavigator = createStackNavigator(
   {
     Main,
-    CurrencySelection,
+    InsertName,
     HelloPage,
     PlayPage,
   },

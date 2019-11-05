@@ -1,6 +1,6 @@
 import Main from './Main';
-import CurrencySelection from './CurrencySelection';
+import InsertName from './InsertName';
 import HelloPage from './HelloPage';
 import PlayPage from './PlayPage';
 
-export { Main, CurrencySelection, HelloPage, PlayPage };
+export { Main, InsertName, HelloPage, PlayPage };

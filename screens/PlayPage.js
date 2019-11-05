@@ -4,31 +4,30 @@ import {
   View,
   Text,
   Image,
+  TouchableOpacity
 } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
-const App = ({
-  navigation
-}) => {
-  return(
-    <View style={styles.container}>
-      <View style={styles.closeImg}>
-        <TouchableOpacity onPress={() => navigation.goBack('')}> 
-          <Image source={require('../assets/close.png')}></Image>
+export default class HelloPage extends Component {
+
+  render(){
+    return(
+      <View style={styles.container}>
+        <TouchableOpacity style={styles.closeImg} onPress={() => this.props.navigation.goBack()}> 
+          <Image source={require('../assets/close.png')}/>
         </TouchableOpacity>
-      </View>
+   
+        <View style={styles.middleText}>
+          <Text style={styles.texts}> Word </Text>
+          <Text style={styles.paginas}> 1/5 </Text>
+        </View>
 
-      <View style={styles.middleText}>
-        <Text style={styles.texts}> Word </Text>
-        <Text style={styles.paginas}> 1/5 </Text>
+        <View style={styles.img}>
+          <Image source={require('../assets/volume.png')}></Image>
+        </View>
+        
       </View>
-
-      <View style={styles.img}>
-        <Image source={require('../assets/volume.png')}></Image>
-      </View>
-      
-    </View>
-  );
+    );
+  }
 };
 const styles = StyleSheet.create({
   container: {
@@ -38,11 +37,12 @@ const styles = StyleSheet.create({
   },
   closeImg: {
     paddingLeft: '80%',
-    paddingTop: '10%',
+    paddingTop: '2%',
   },
   middleText:{
     transform: [{ rotate: '90deg'}],
-    marginTop:'65%',
+    marginTop:'60%',
+    marginRight:'2%',
   },
   texts: {
     fontSize: 50,
@@ -62,4 +62,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+
