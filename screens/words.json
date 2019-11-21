@@ -1,0 +1,98 @@
+[
+	{
+		"id": 1,
+		"word": "Dado", 
+		"var1": "Odad", 
+		"var2": "Adod",
+		"var3": "Ddoa",
+		"var4": "Dado"
+	},
+	{
+		"id": 2, 
+		"word": "Mala", 
+		"var1" : "Lmaa", 
+		"var2" : "Aalm",
+		"var3": "Mala",
+		"var4": "Lama"
+	},
+	{
+		"id": 3, 
+		"word": "Batata", 
+		"var1" : "Atatab", 
+		"var2" : "Btataa",
+		"var3": "Batata",
+		"var4": "Aaabtt"
+	},
+	{
+		"id": 4, 
+		"word": "Gato", 
+		"var1" : "Toga", 
+		"var2" : "Gato",
+		"var3": "Tgao",
+		"var4": "Agto"
+	},
+	{
+		"id": 5, 
+		"word": "Cachorro", 
+		"var1" : "Chorroca", 
+		"var2" : "Hococarr",
+		"var3": "Cachorro",
+		"var4": "Achrrooc"
+	},
+	{
+		"id": 6, 
+		"word": "Leão", 
+		"var1" : "Leão", 
+		"var2" : "Lãoe",
+		"var3": "Elão",
+		"var4": "Lião"
+	},
+	{
+		"id": 7, 
+		"word": "Baleia", 
+		"var1" : "Liebaa", 
+		"var2" : "Abalei",
+		"var3": "Balaei",
+		"var4": "Baleia"
+	},
+	{
+		"id": 8, 
+		"word": "Homem", 
+		"var1" : "Homem", 
+		"var2" : "Memho",
+		"var3": "Hoemm",
+		"var4": "Moemh"
+	},
+	{
+		"id": 9, 
+		"word": "Lata", 
+		"var1" : "Tala", 
+		"var2" : "Latt",
+		"var3": "Lata",
+		"var4": "Taal"
+	},
+	{
+		"id": 10, 
+		"word": "Lixo", 
+		"var1" : "Xoli", 
+		"var2" : "Xilo",
+		"var3": "Lxio",
+		"var4": "Lixo"
+	},
+	{
+		"id": 11, 
+		"word": "Bola", 
+		"var1" : "Obla", 
+		"var2" : "Aolb",
+		"var3": "Bola",
+		"var4": "Balo"
+	},
+	{
+		"id": 12, 
+		"word": "Sapato", 
+		"var1" : "Pasato", 
+		"var2" : "Satapo",
+		"var3": "Sapato",
+		"var4": "Topasa"
+	}
+]

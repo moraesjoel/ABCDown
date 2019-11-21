@@ -7,7 +7,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-export default class HelloPage extends Component {
+export default class PlayPage extends Component {
 
   render(){
     return(
@@ -20,6 +20,9 @@ export default class HelloPage extends Component {
           <Text style={styles.texts}> Word </Text>
           <Text style={styles.paginas}> 1/5 </Text>
         </View>
+        <TouchableOpacity style={styles.closeImg} onPress={() => this.props.navigation.navigate('PlayPage2')}> 
+          <Text>Next</Text>
+        </TouchableOpacity>
 
         <View style={styles.img}>
           <Image source={require('../assets/volume.png')}></Image>
